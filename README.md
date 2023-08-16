@@ -1,9 +1,10 @@
 # Project-3
 
-## Project Description
- A Weather app that provides users with current weather information for their chosen location. Users can input their preferred location and instantly receive accurate weather updates. 
+## NimbusNow
+Step into a world of instant weather wonders with NimbusNow! Whether you're planning a weekend getaway or simply want to know if you need an umbrella for your morning coffee run, NimbusNow has got you covered. With a playful interface and lightning-fast updates, you'll discover the joy of weather forecasts that are as thrilling as they are accurate. Rain or shine, embark on a weather adventure with NimbusNow!
 
 ## Api
+[OpenWeatherAPI](https://openweathermap.org/api)
 
 ## ERDs
 We will design the following entities:
@@ -13,6 +14,20 @@ Location: Stores user-selected locations for weather updates.
 WeatherData: Stores the retrieved weather information for each location.
 
 ## Restful Routing Chart
++---------------------------------+-------------------------+--------------------------+
+|           Endpoint              |        Description      |         Actions          |
++---------------------------------+-------------------------+--------------------------+
+|   /                             | Home page               | GET                      |
+|   /login/                       | User login              | GET, POST                |
+|   /logout/                      | User logout             | POST (logout)            |
+|   /profile/                     | User profile            | GET, POST, PUT, DELETE   |
+|                                   and settings                                       |
+|   /locations/                   | List of user's          | GET, POST                |
+|                                   saved locations                                    |
+|   /locations/<int:location_id>/ | Location details        | GET, PUT,DELETE          |
+|   /locations/add/               | Add new location        | GET, POST                |
++---------------------------------+----------------------------------------------------+
+
 '/': Home page displaying user's saved locations and weather updates.
 /add_location: Form to add a new location for weather updates.
 /location/{location_id}: Detailed weather information for a specific location.
