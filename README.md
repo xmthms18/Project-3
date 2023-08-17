@@ -28,22 +28,14 @@ WeatherData: Stores the retrieved weather information for each location.
 |   /locations/add/               | Add new location        | GET, POST                |
 +---------------------------------+----------------------------------------------------+
 
-'/': Home page displaying user's saved locations and weather updates.
-/add_location: Form to add a new location for weather updates.
-/location/{location_id}: Detailed weather information for a specific location.
-/profile: User profile page to manage settings and preferences.
 
 ## Wireframes of Use views
 
 * 1.HomePage -
+![Home-Page](Home-page.jpeg)
 
-* 2.Add Location -
-
-* 3.Location Detail -
-
-* 4.User Profile Page -
-
-
+* 2.Welcom Screen -
+![Welcome-Screen](Welcom-Page.jpeg)
 
 ## User Stories
 As a user, I want to view the current weather for my selected locations.
