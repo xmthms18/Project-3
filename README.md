@@ -38,21 +38,21 @@ WeatherData: Stores the retrieved weather information for each location.
 ![Welcome-Screen](Welcom-Page.jpeg)
 
 ## User Stories
-As a user, I want to view the current weather for my selected locations.
-As a user, I want to add new locations to track their weather.
-As a user, I want to see detailed weather information for each location.
-As a user, I want to manage my profile settings and preferences.
+* As a user, I want to view the current weather for my selected locations.
+* As a user, I want to add new locations to track their weather.
+* As a user, I want to see detailed weather information for each location.
+* As a user, I want to manage my profile settings and preferences.
 
 ## MVP Goals
-Create a Django project with necessary configurations.
-Implement user authentication and registration.
-Develop a home page to display user's saved locations and basic weather information.
-Integrate the OpenWeather API to fetch weather data based on user-selected locations.
-Design a form to add new locations for weather updates.
-Build a location detail page to show comprehensive weather data.
+* Create a Django project with necessary configurations.
+* Implement user authentication and registration.
+* Develop a home page to display user's saved locations and basic weather information.
+* Integrate the OpenWeather API to fetch weather data based on user-selected locations.
+* Design a form to add new locations for weather updates.
+* Build a location detail page to show comprehensive weather data.
 
 ## Stretch Goals
-Provide data visualization, such as graphs, to display historical weather trends.
-Implement user settings for temperature units (Celsius/Fahrenheit) and time formats.
-Incorporate real-time weather map using external libraries or APIs.
-Create a responsive design for mobile devices.
+* Provide data visualization, such as graphs, to display historical weather trends.
+* Implement user settings for temperature units (Celsius/Fahrenheit) and time formats.
+* Incorporate real-time weather map using external libraries or APIs.
+* Create a responsive design for mobile devices.
