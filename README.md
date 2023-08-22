@@ -9,9 +9,9 @@ Step into a world of instant weather wonders with NimbusNow! Whether you're plan
 ## ERDs
 We will design the following entities:
 
-User: Stores user authentication and preferences.
-Location: Stores user-selected locations for weather updates.
-WeatherData: Stores the retrieved weather information for each location.
+* User: Stores user authentication and preferences.
+* Location: Stores user-selected locations for weather updates.
+* WeatherData: Stores the retrieved weather information for each location.
 
 ## Restful Routing Chart
 +---------------------------------+-------------------------+--------------------------+
